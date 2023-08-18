@@ -5,12 +5,17 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () => import('../views/Home.vue'),
-    redirect: { name: 'ExpandingCards' },
+    redirect: { name: 'ProgressStep' },
     children: [
       {
         path: 'expanding_cards',
         name: 'ExpandingCards',
         component: () => import('../components/ExpandingCards.vue'),
+      },
+      {
+        path: 'progress_step',
+        name: 'ProgressStep',
+        component: () => import('../components/ProgressStep.vue'),
       },
     ],
   },

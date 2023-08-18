@@ -4,39 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/50-tailwindcss.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/.prettierrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/src/assets/vue.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/src/components/ExpandingCards.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/src/components/ProgressStep.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/src/router/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/src/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/src/vite-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/tsconfig.node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-tailwindcss/vite.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="fix: update folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProgressStep.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProgressStep.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +22,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2U6yqWvAKDZuGwiVqGiu7KraqBK" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -73,6 +46,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "/Users/yinjg/Desktop/attention-is-all-you-need/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -86,7 +60,26 @@
       <option name="presentableId" value="Default" />
       <updated>1692274515198</updated>
       <workItem from="1692274516218" duration="317000" />
+      <workItem from="1692274841156" duration="342000" />
+      <workItem from="1692355585806" duration="8806000" />
     </task>
+    <task id="LOCAL-00001" summary="fix: update folder">
+      <option name="closed" value="true" />
+      <created>1692274918281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692274918281</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: update folder">
+      <option name="closed" value="true" />
+      <created>1692275056412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692275056412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,5 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix: update folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: update folder" />
   </component>
 </project>

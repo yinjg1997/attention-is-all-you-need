@@ -5,7 +5,7 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () => import('../views/Home.vue'),
-    redirect: { name: 'ProgressStep' },
+    redirect: { name: 'RotationNavAnimation' },
     children: [
       {
         path: 'expanding_cards',
@@ -17,6 +17,11 @@ const routes = [
         name: 'ProgressStep',
         component: () => import('../components/ProgressStep.vue'),
       },
+      {
+        path: 'rotation_nav_animation',
+        name: 'RotationNavAnimation',
+        component: () => import('../components/RotationNavAnimation.vue')
+      }
     ],
   },
 ]

@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="feat: add ProgressStep.vue">
-      <change afterPath="$PROJECT_DIR$/src/components/RotationNavAnimation.vue" afterDir="false" />
+    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="feat: add RotationNavAnimation.vue">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpandingCards.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpandingCards.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProgressStep.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProgressStep.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RotationNavAnimation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RotationNavAnimation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +29,9 @@
         <option value="Vue Composition API Component" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,17 +53,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "js.linters.configure.manually.selectedeslint": "true",
     "last_opened_file_path": "/Users/yinjg/Desktop/attention-is-all-you-need",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.eslint": "/Users/yinjg/Desktop/formatter/node_modules/eslint",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Vue template",
+    "prettierjs.PrettierConfiguration.Package": "/Users/yinjg/Desktop/formatter/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/yinjg/Desktop/attention-is-all-you-need/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
@@ -66,6 +80,9 @@
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="" />
@@ -76,7 +93,9 @@
       <workItem from="1692274516218" duration="317000" />
       <workItem from="1692274841156" duration="342000" />
       <workItem from="1692355585806" duration="10664000" />
-      <workItem from="1692422536013" duration="20648000" />
+      <workItem from="1692422536013" duration="21303000" />
+      <workItem from="1692454651663" duration="1077000" />
+      <workItem from="1692456189068" duration="2288000" />
     </task>
     <task id="LOCAL-00001" summary="fix: update folder">
       <option name="closed" value="true" />
@@ -102,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692385101716</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add RotationNavAnimation.vue">
+      <option name="closed" value="true" />
+      <created>1692445678237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692445678237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +139,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fix: update folder" />
     <MESSAGE value="feat: add ProgressStep.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add ProgressStep.vue" />
+    <MESSAGE value="feat: add RotationNavAnimation.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add RotationNavAnimation.vue" />
   </component>
 </project>

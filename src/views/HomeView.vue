@@ -1,19 +1,18 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 <template>
   <div class="flex h-screen w-screen">
     <div
-        class="flex h-full min-w-[200px] flex-col items-center bg-indigo-200 p-[1rem]"
+      class="flex h-full min-w-[200px] flex-col items-center bg-indigo-200 p-[1rem]"
     >
       <div class="flex flex-col gap-y-[1rem]">
         <router-link :to="{ name: 'ExpandingCards' }">
-          {{ 'ExpandingCards' }}
+          {{ "ExpandingCards" }}
         </router-link>
         <router-link :to="{ name: 'ProgressStep' }">
-          {{ 'ProgressStep' }}
+          {{ "ProgressStep" }}
         </router-link>
         <router-link :to="{ name: 'RotationNavAnimation' }">
-          {{ 'RotationNavAnimation' }}
+          {{ "RotationNavAnimation" }}
         </router-link>
       </div>
     </div>

@@ -22,6 +22,11 @@ export const routes = [
         name: "RotationNavAnimation",
         component: () => import("../components/RotationNavAnimation.vue"),
       },
+      {
+        path: "hidden_search_widget",
+        name: "HiddenSearchWidget",
+        component: () => import("../components/HiddenSearchWidget.vue"),
+      },
     ],
   },
 ];

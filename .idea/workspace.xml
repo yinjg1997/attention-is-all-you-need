@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="feat: add RotationNavAnimation.vue">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="feat: update routes">
+      <change afterPath="$PROJECT_DIR$/src/components/HiddenSearchWidget.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +90,7 @@
       <workItem from="1692459432470" duration="141000" />
       <workItem from="1692459581137" duration="733000" />
       <workItem from="1692514441067" duration="636000" />
-      <workItem from="1692515082913" duration="282000" />
+      <workItem from="1692515082913" duration="4118000" />
     </task>
     <task id="LOCAL-00001" summary="fix: update folder">
       <option name="closed" value="true" />
@@ -138,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692458666852</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: update routes">
+      <option name="closed" value="true" />
+      <created>1692515540167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692515540167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +151,7 @@
     <MESSAGE value="fix: update folder" />
     <MESSAGE value="feat: add ProgressStep.vue" />
     <MESSAGE value="feat: add RotationNavAnimation.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add RotationNavAnimation.vue" />
+    <MESSAGE value="feat: update routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update routes" />
   </component>
 </project>

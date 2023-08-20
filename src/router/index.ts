@@ -1,34 +1,34 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from "vue-router";
 
-const routes = [
+export const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: () => import('../views/Home.vue'),
-    redirect: { name: 'RotationNavAnimation' },
+    path: "/",
+    name: "Home",
+    component: () => import("../views/HomeView.vue"),
+    redirect: { name: "RotationNavAnimation" },
     children: [
       {
-        path: 'expanding_cards',
-        name: 'ExpandingCards',
-        component: () => import('../components/ExpandingCards.vue'),
+        path: "expanding_cards",
+        name: "ExpandingCards",
+        component: () => import("../components/ExpandingCards.vue"),
       },
       {
-        path: 'progress_step',
-        name: 'ProgressStep',
-        component: () => import('../components/ProgressStep.vue'),
+        path: "progress_step",
+        name: "ProgressStep",
+        component: () => import("../components/ProgressStep.vue"),
       },
       {
-        path: 'rotation_nav_animation',
-        name: 'RotationNavAnimation',
-        component: () => import('../components/RotationNavAnimation.vue')
-      }
+        path: "rotation_nav_animation",
+        name: "RotationNavAnimation",
+        component: () => import("../components/RotationNavAnimation.vue"),
+      },
     ],
   },
-]
+];
 
 const router = createRouter({
   routes,
   history: createWebHistory(),
-})
+});
 
-export default router
+export default router;

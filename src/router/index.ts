@@ -27,6 +27,11 @@ export const routes = [
         name: "HiddenSearchWidget",
         component: () => import("../components/HiddenSearchWidget.vue"),
       },
+      {
+        path: "blurry_loading",
+        name: "BlurryLoading",
+        component: () => import("../components/BlurryLoading.vue"),
+      },
     ],
   },
 ];

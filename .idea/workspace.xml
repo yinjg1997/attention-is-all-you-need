@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="feat: add BlurryLoading.vue">
+      <change afterPath="$PROJECT_DIR$/src/components/ScrollAnimation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +98,8 @@
       <workItem from="1692515082913" duration="4776000" />
       <workItem from="1692581422046" duration="5285000" />
       <workItem from="1692599307898" duration="30000" />
+      <workItem from="1692599449975" duration="2767000" />
+      <workItem from="1692776687602" duration="5819000" />
     </task>
     <task id="LOCAL-00001" summary="fix: update folder">
       <option name="closed" value="true" />
@@ -153,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692519249485</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: add BlurryLoading.vue">
+      <option name="closed" value="true" />
+      <created>1692599674994</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692599674994</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +178,7 @@
     <MESSAGE value="feat: add RotationNavAnimation.vue" />
     <MESSAGE value="feat: update routes" />
     <MESSAGE value="feat: add HiddenSearchWidget.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add HiddenSearchWidget.vue" />
+    <MESSAGE value="feat: add BlurryLoading.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add BlurryLoading.vue" />
   </component>
 </project>

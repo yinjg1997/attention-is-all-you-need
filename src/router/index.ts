@@ -5,7 +5,7 @@ export const routes = [
     path: "/",
     name: "Home",
     component: () => import("../views/HomeView.vue"),
-    redirect: { name: "RotationNavAnimation" },
+    redirect: { name: "ExpandingCards" },
     children: [
       {
         path: "expanding_cards",
@@ -31,6 +31,11 @@ export const routes = [
         path: "blurry_loading",
         name: "BlurryLoading",
         component: () => import("../components/BlurryLoading.vue"),
+      },
+      {
+        path: "scroll_animation",
+        name: "ScrollAnimation",
+        component: () => import("../components/ScrollAnimation.vue"),
       },
     ],
   },

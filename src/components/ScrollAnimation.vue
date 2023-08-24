@@ -6,9 +6,16 @@ const checkBoxes = () => {
   const triggerBottom = (window.innerHeight / 5) * 4;
   boxRef.value?.forEach((box) => {
     const boxTop = box.getBoundingClientRect().top;
+    box.classList.add('translate-x-[400%]')
     console.log(boxTop)
-    if (boxTop < triggerBottom) box.classList.add("translate-x-[0]");
-    else box.classList.remove("translate-x-[0]");
+    if (boxTop < triggerBottom) {
+      box.classList.remove('translate-x-[400%]');
+      box.classList.add("translate-x-[0]");
+    }
+    else{
+      box.classList.remove("translate-x-[0]");
+      box.classList.add('translate-x-[400%]');
+    }
   });
 };
 
@@ -33,7 +40,7 @@ const handleScroll = () => {
           class="
           w-[300px] h-[160px] rounded-2xl bg-blue-300 m-4 shadow-xl
           text-white font-bold text-4xl text-center leading-[160px]
-          translate-x-[400%] transition-transform duration-400"
+           transition-transform duration-400"
         >
           {{ item }}
         </div>

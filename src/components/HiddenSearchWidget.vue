@@ -11,10 +11,8 @@ const isCollapse = ref(false);
       <input
         type="text"
         placeholder="Search..."
-        class="w-[300px] h-full p-3 focus:outline-0 transition-all duration-500"
-        :style="{
-          width: isCollapse ? '0' : '300px',
-        }"
+        class="h-full p-3 focus:outline-0 transition-all duration-500"
+        :class="isCollapse ? 'w-0' : 'w-[300px]'"
       />
       <button
         class="absolute right-0 w-12 h-12 flex justify-center items-center bg-white"

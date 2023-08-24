@@ -2,13 +2,12 @@
 import { onMounted, ref } from "vue";
 
 const boxRef = ref<HTMLDivElement[]>();
-
 const checkBoxes = () => {
   const triggerBottom = (window.innerHeight / 5) * 4;
   boxRef.value?.forEach((box) => {
     const boxTop = box.getBoundingClientRect().top;
-    if (boxTop < triggerBottom) box.classList.add("translate-x-[0%]");
-    else box.classList.remove("translate-x-[0%]");
+    if (boxTop < triggerBottom) box.classList.add("translate-x-0");
+    else box.classList.remove("translate-x-0");
   });
 };
 
@@ -27,10 +26,13 @@ const handleScroll = () => {
   >
     <h1 class="text-3xl font-bold m-4">Scroll to see the animation</h1>
     <div class="grow">
-      <template v-for="(item, index) in 20" :key="item">
+      <template v-for="item in 20" :key="item">
         <div
           ref="boxRef"
-          class="w-[300px] h-[160px] rounded-2xl bg-blue-300 m-4 shadow-xl text-white font-bold text-4xl text-center leading-[160px] translate-x-[400%] transition-transform duration-400"
+          class="
+          w-[300px] h-[160px] rounded-2xl bg-blue-300 m-4 shadow-xl
+          text-white font-bold text-4xl text-center leading-[160px]
+          translate-x-[400%] transition-transform duration-400"
         >
           {{ item }}
         </div>

@@ -6,8 +6,9 @@ const checkBoxes = () => {
   const triggerBottom = (window.innerHeight / 5) * 4;
   boxRef.value?.forEach((box) => {
     const boxTop = box.getBoundingClientRect().top;
-    if (boxTop < triggerBottom) box.classList.add("translate-x-0");
-    else box.classList.remove("translate-x-0");
+    console.log(boxTop)
+    if (boxTop < triggerBottom) box.classList.add("translate-x-[0]");
+    else box.classList.remove("translate-x-[0]");
   });
 };
 

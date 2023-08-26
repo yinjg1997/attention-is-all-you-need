@@ -4,8 +4,9 @@
 <template>
 <div class="w-full h-full flex justify-center items-center bg-gray-300">
   <button class="btn relative h-32 pl-32 pr-32 rounded-[6px] border-[#1890ff] bg-[#1890ff]
-  transition-all
-  hover:bg-[#40a9ff] hover:border-[#40a9ff]
+  transition-all hover:bg-[#40a9ff] hover:border-[#40a9ff]
+  after:absolute after:inset-0 after:w-full after:h-full after:rounded-[6px] after:opacity-0 after:transition after:duration-[1s]
+  active:after:opacity-40 active:after:duration-0
   ">
     <span class="text-white text-6xl">
       Fake
@@ -15,23 +16,12 @@
 </div>
 </template>
 
-<style scoped>
+<style scoped lang="less">
 .btn::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 6px;
-  opacity: 0;
   box-shadow: 0 0 0 24px #1890ff;
-  transition: 1s;
 }
-
 .btn:active::after{
-  opacity: .4;
   box-shadow: none;
-
-  transition: 0s; /*取消过渡*/
 }
+
 </style>

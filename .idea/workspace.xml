@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="feat: add SoundBoard.vue">
-      <change afterPath="$PROJECT_DIR$/src/components/FakeAntDesignButton.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-    </list>
+    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="feat: add FakeAntDesignButton.vue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +97,7 @@
       <workItem from="1692776687602" duration="6505000" />
       <workItem from="1692873359489" duration="4434000" />
       <workItem from="1693017848350" duration="14584000" />
-      <workItem from="1693033077331" duration="7427000" />
+      <workItem from="1693033077331" duration="7578000" />
     </task>
     <task id="LOCAL-00001" summary="fix: update folder">
       <option name="closed" value="true" />
@@ -216,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693031869954</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: add FakeAntDesignButton.vue">
+      <option name="closed" value="true" />
+      <created>1693051673599</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693051673599</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +247,7 @@
     <MESSAGE value="feat: add fix bug" />
     <MESSAGE value="feat: add SplitLandingPage.vue" />
     <MESSAGE value="feat: add SoundBoard.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add SoundBoard.vue" />
+    <MESSAGE value="feat: add FakeAntDesignButton.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add FakeAntDesignButton.vue" />
   </component>
 </project>

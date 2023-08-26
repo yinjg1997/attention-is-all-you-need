@@ -46,6 +46,11 @@ export const routes = [
         path: "sound_board",
         name: "SoundBoard",
         component: () => import("../components/SoundBoard.vue")
+      },
+      {
+        path: "fake_ant_design_button",
+        name: "FakeAntDesignButton",
+        component: () => import("../components/FakeAntDesignButton.vue")
       }
     ],
   },

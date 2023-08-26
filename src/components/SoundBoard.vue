@@ -22,7 +22,7 @@ const playSound = (soundPath: string) => {
               @click="playSound(soundPath)"
       >
         <span class="text-white">
-          {{ soundPath.split('/').pop().split('.')[0] }}
+          {{ soundPath.split('/').pop()?.split('.')[0] }}
         </span>
       </button>
     </template>

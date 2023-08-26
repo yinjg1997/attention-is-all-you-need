@@ -38,9 +38,14 @@ export const routes = [
         component: () => import("../components/ScrollAnimation.vue"),
       },
       {
-        path: "split-landing-page",
+        path: "split_landing-page",
         name: "SplitLandingPage",
         component: () => import("../components/SplitLandingPage.vue")
+      },
+      {
+        path: "sound_board",
+        name: "SoundBoard",
+        component: () => import("../components/SoundBoard.vue")
       }
     ],
   },

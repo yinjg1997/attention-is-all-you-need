@@ -153,11 +153,6 @@ export const routes = [
         component: () => import("../components/MobileTabNavigation.vue")
       },
       {
-        path:"password-strength-background",
-        name: "PasswordStrengthBackground",
-        component: () => import("../components/PasswordStrengthBackground.vue")
-      },
-      {
         path:"3d-background-boxes",
         name: "3dBackgroundBoxes",
         component: () => import("../components/3dBackgroundBoxes.vue")

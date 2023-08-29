@@ -4,37 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="feat: test build">
-      <change afterPath="$PROJECT_DIR$/src/components/3dBackgroundBoxes.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArtIsButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BackgroundSlider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonRippleEffect.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomRangeSlider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoubleVerticalSlider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DragNDrop.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DrawingApp.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DrinkWater.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FaqCollapse.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GithubProfiles.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GoodCheapFast.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hoverboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ImageCarousel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IncrementingCounter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InsectCatchGame.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/KineticLoader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MobileTabNavigation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieApp.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PasswordStrengthBackground.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pokedex.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RandomImageFeed.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StickyNavbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TestimonialBoxSwitcher.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ThemeClock.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ToastNotification.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VerifyAccountUi.vue" afterDir="false" />
+    <list default="true" id="7ec50433-2ba2-4750-9649-996564bf15c9" name="Changes" comment="feat: art is button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PasswordStrengthBackground.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
     </list>
@@ -132,7 +104,7 @@
       <workItem from="1693017848350" duration="14584000" />
       <workItem from="1693033077331" duration="7578000" />
       <workItem from="1693115477734" duration="460000" />
-      <workItem from="1693289896419" duration="15610000" />
+      <workItem from="1693289896419" duration="17099000" />
     </task>
     <task id="LOCAL-00001" summary="fix: update folder">
       <option name="closed" value="true" />
@@ -254,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693051673599</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: art is button">
+      <option name="closed" value="true" />
+      <created>1693329736509</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1693329736509</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +263,7 @@
     <MESSAGE value="feat: add SplitLandingPage.vue" />
     <MESSAGE value="feat: add SoundBoard.vue" />
     <MESSAGE value="feat: add FakeAntDesignButton.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add FakeAntDesignButton.vue" />
+    <MESSAGE value="feat: art is button" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: art is button" />
   </component>
 </project>

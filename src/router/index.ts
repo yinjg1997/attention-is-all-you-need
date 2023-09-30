@@ -8,6 +8,11 @@ export const routes = [
     redirect: { name: "ExpandingCards" },
     children: [
       {
+        path: "fake_ant_textarea",
+        name: "FakeAntTextarea",
+        component: () => import("../components/FakeAntTextarea.vue"),
+      },
+      {
         path: "expanding_cards",
         name: "ExpandingCards",
         component: () => import("../components/ExpandingCards.vue"),
@@ -38,7 +43,7 @@ export const routes = [
         component: () => import("../components/ScrollAnimation.vue"),
       },
       {
-        path: "split_landing-page",
+        path: "split_landing_page",
         name: "SplitLandingPage",
         component: () => import("../components/SplitLandingPage.vue")
       },
@@ -56,6 +61,21 @@ export const routes = [
         path: "art_is_button",
         name: "ArtIsButton",
         component: () => import("../components/ArtIsButton.vue")
+      },
+      {
+        path: 'shiny_tags',
+        name: "ShinyTags",
+        component: () => import("../components/ShinyTags.vue")
+      },
+      {
+        path: "theme_clock",
+        name: "ThemeClock",
+        component: () => import("../components/ThemeClock.vue")
+      },
+      {
+        path:"chose_yr_plan",
+        name:"ChoseYrPlan",
+        component: () => import("../components/ChoseYrPlan.vue")
       },
       {
         path: "faq_collapse",
@@ -83,57 +103,52 @@ export const routes = [
         component: () => import("../components/BackgroundSlider.vue")
       },
       {
-        path: "theme_clock",
-        name: "ThemeClock",
-        component: () => import("../components/ThemeClock.vue")
-      },
-      {
         path:"button_ripple_effect",
         name: "ButtonRippleEffect",
         component: () => import("../components/ButtonRippleEffect.vue")
       },
       {
-        path:"drag-n-drop",
+        path:"drag_n_drop",
         name: "DragNDrop",
         component: () => import("../components/DragNDrop.vue")
       },
       {
-        path:"drawing-app",
+        path:"drawing_app",
         name: "DrawingApp",
         component: () => import("../components/DrawingApp.vue")
       },
       {
-        path:"kinetic-loader",
+        path:"kinetic_loader",
         name: "KineticLoader",
         component: () => import("../components/KineticLoader.vue")
       },
       {
-        path:"sticky-navbar",
+        path:"sticky_navbar",
         name: "StickyNavbar",
         component: () => import("../components/StickyNavbar.vue")
       },
       {
-        path:"double-vertical-slider",
+        path:"double_vertical_slider",
         name: "DoubleVerticalSlider",
         component: () => import("../components/DoubleVerticalSlider.vue")
       },
       {
-        path:"toast-notification",
+        path:"toast_notification",
         name: "ToastNotification",
         component: () => import("../components/ToastNotification.vue")
       },
       {
-        path:"github-profiles",
+        path:"github_profiles",
         name: "GithubProfiles",
         component: () => import("../components/GithubProfiles.vue")
       },
       {
-        path:"good-cheap-fast",
+        path:"good_cheap_fast",
         name: "GoodCheapFast",
         component: () => import("../components/GoodCheapFast.vue")
       },
       {
-        path:"image-carousel",
+        path:"image_carousel",
         name: "ImageCarousel",
         component: () => import("../components/ImageCarousel.vue")
       },
@@ -148,37 +163,37 @@ export const routes = [
         component: () => import("../components/Hoverboard.vue")
       },
       {
-        path:"mobile-tab-navigation",
+        path:"mobile_tab_navigation",
         name: "MobileTabNavigation",
         component: () => import("../components/MobileTabNavigation.vue")
       },
       {
-        path:"3d-background-boxes",
+        path:"3d_background_boxes",
         name: "3dBackgroundBoxes",
         component: () => import("../components/3dBackgroundBoxes.vue")
       },
       {
-        path:"verify-account-ui",
+        path:"verify_account_ui",
         name: "VerifyAccountUi",
         component: () => import("../components/VerifyAccountUi.vue")
       },
       {
-        path:"custom-range-slider",
+        path:"custom_range_slider",
         name: "CustomRangeSlider",
         component: () => import("../components/CustomRangeSlider.vue")
       },
       {
-        path:"testimonial-box-switcher",
+        path:"testimonial_box_switcher",
         name: "TestimonialBoxSwitcher",
         component: () => import("../components/TestimonialBoxSwitcher.vue")
       },
       {
-        path:"random-image-feed",
+        path:"random_image_feed",
         name: "RandomImageFeed",
         component: () => import("../components/RandomImageFeed.vue")
       },
       {
-        path:"insect-catch-game",
+        path:"insect_catch_game",
         name: "InsectCatchGame",
         component: () => import("../components/InsectCatchGame.vue")
       },

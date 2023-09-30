@@ -21,6 +21,7 @@
     active:scale-95 transition-all">
       <span class="text-white text-[14px]">Primary</span>
     </button>
+
   </div>
 </template>
 

@@ -89,14 +89,22 @@ const value = ref('')
 
     <a-divider></a-divider>
 
-    <div class="bg-blue-300 h-full overflow-y-auto">
-      <a-textarea
-          class="text-[22px] overflow-y-hidden border-[4px]"
-          v-model:value="value"
-          :placeholder="'ant-design-textarea'"
-          :auto-size="true"
-      />
-    </div>
+    <a-textarea
+        class="text-[22px] overflow-y-hidden"
+        v-model:value="value"
+        :placeholder="'ant-design-textarea'"
+        :auto-size="true"
+    />
+
+    <!---->
+    <!--<div class="bg-blue-300 h-full overflow-y-auto">-->
+    <!--  <a-textarea-->
+    <!--      class="text-[22px] overflow-y-hidden border-[4px]"-->
+    <!--      v-model:value="value"-->
+    <!--      :placeholder="'ant-design-textarea'"-->
+    <!--      :auto-size="true"-->
+    <!--  />-->
+    <!--</div>-->
 
 
   </div>

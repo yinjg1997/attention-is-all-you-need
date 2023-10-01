@@ -8,6 +8,16 @@ export const routes = [
     redirect: { name: "ExpandingCards" },
     children: [
       {
+        path: "incrementing_counter",
+        name: "IncrementingCounter",
+        component: () => import("../components/IncrementingCounter.vue")
+      },
+      {
+        path: "fake_collapse",
+        name: "FakeCollapse",
+        component: () => import("../components/FakeCollapse.vue")
+      },
+      {
         path: "fake_ant_textarea",
         name: "FakeAntTextarea",
         component: () => import("../components/FakeAntTextarea.vue"),
@@ -76,11 +86,6 @@ export const routes = [
         path:"chose_yr_plan",
         name:"ChoseYrPlan",
         component: () => import("../components/ChoseYrPlan.vue")
-      },
-      {
-        path: "faq_collapse",
-        name: "FaqCollapse",
-        component: () => import("../components/FaqCollapse.vue")
       },
       {
         path: "incrementing_counter",

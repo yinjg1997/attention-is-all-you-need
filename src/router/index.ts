@@ -5,8 +5,13 @@ export const routes = [
     path: "/",
     name: "Home",
     component: () => import("../views/HomeView.vue"),
-    redirect: { name: "ExpandingCards" },
+    redirect: { name: "DrinkWater" },
     children: [
+      {
+        path: "drink_water",
+        name: "DrinkWater",
+        component: () => import("../components/DrinkWater.vue")
+      },
       {
         path: "incrementing_counter",
         name: "IncrementingCounter",
@@ -91,11 +96,6 @@ export const routes = [
         path: "incrementing_counter",
         name: "IncrementingCounter",
         component: () => import("../components/IncrementingCounter.vue")
-      },
-      {
-        path: "drink_water",
-        name: "DrinkWater",
-        component: () => import("../components/DrinkWater.vue")
       },
       {
         path: "movie_app",
